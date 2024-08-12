@@ -1,0 +1,14 @@
+Step 3. Terraform Init: Initializing the Working Directory
+----
+>>
+goto vs code
+goto 2_Terraform_Init / terraform-ec2
+
+>
+Run terraform init in your configuration directory. 
+This will download the necessary provider plugins for Terraform.
+Initialize the directory.
+
+terraform init
+
+Terraform downloads the aws provider and installs it in a hidden subdirectory of your current working directory, named .terraform. 
