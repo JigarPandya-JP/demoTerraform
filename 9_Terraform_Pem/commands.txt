@@ -1,0 +1,18 @@
+Step 9. Terraform Variables: Parameterizing the Configuration with Input Variables
+----
+>>
+goto vs code
+	goto 9_Terraform_Pem/ terraform-ec2
+
+reference 
+    https://awstip.com/terraform-create-aws-ec2-instance-with-key-pair-ff541f9eec58
+
+
+Run following
+
+    terraform init
+    terraform validate
+    terraform plan
+    terraform apply
+    
+    terraform destroy
