@@ -23,6 +23,9 @@
     # User specific environment and startup programs
 
     PATH=$PATH:$HOME/bin:$AWS
+
+    >>> exit nano or vi
+
     source .bash_profile
 		echo $PATH
 		aws version
